@@ -10,6 +10,14 @@ const myHeros = ["RatanTata", "RohitSharma", "AkashPandey"]
 // console.log(myArr.includes(4));
 // console.log(myArr.indexOf(5));
 
-const newArr = myArr.join()
-console.log(myArr);
-console.log(newArr);
+const myNew1 = myArr.slice(0, 2)
+console.log(myNew1)
+console.log('B', myArr)
+const myNew2 = myArr.splice(0, 2)
+
+// const newArr = myArr.join()
+// console.log(myArr);
+// console.log(newArr);
+//console.log('A', myArr);
+console.log(myNew2);
+
