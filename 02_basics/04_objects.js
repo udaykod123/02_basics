@@ -23,8 +23,16 @@ const regularUser = {
 // const obj4 = Object.assign({}, myObj1, myObj2, myObj3);
 // console.log(obj4);
 
-user[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(object.values(tinderUser));
-console.log(object.enteries(tinderUser));
+// user[1].email
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(object.values(tinderUser));
+// console.log(object.enteries(tinderUser));
+const course = {
+    courseName : "Java",
+    corsePrice : 99,
+    courseInstructor : "Uday"
+}
+const {courseInstructor} = course
+console.log(courseInstructor);
+
